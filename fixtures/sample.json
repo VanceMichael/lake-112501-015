@@ -1,5 +1,27 @@
 {
   "说明": "本地合成演练资料",
   "业务对象": "能源计量微批的水位、空闲分区与离线回补",
-  "记录": []
+  "记录": [
+    {
+      "partition": "p1",
+      "device": "M-1",
+      "event_id": "e1",
+      "event_time": "2026-10-17T23:59:40Z",
+      "reading": 10.0
+    },
+    {
+      "partition": "p2",
+      "device": "M-2",
+      "event_id": "e2",
+      "event_time": "2026-10-18T00:00:10Z",
+      "reading": 11.0
+    },
+    {
+      "partition": "p1",
+      "device": "M-1",
+      "event_id": "e1",
+      "event_time": "2026-10-17T23:59:40Z",
+      "reading": 10.0
+    }
+  ]
 }
